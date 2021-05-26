@@ -13,7 +13,7 @@ int main() {
 
         ping.output();
         ping = 0; wait_us(200);
-        ping = 1; wait_us(5)
+        ping = 1; wait_us(5);
         ping = 0; wait_us(5);
 
         ping.input();
