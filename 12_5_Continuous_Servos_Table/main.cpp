@@ -50,7 +50,7 @@ int main() {
 
         i += 30;
     }
-    servo_control(0);
+    servo_control(100);
 
     while(1);
 }
